@@ -3,23 +3,23 @@ name: SGSI_Build
 on:
   workflow_dispatch:
     inputs:
-      ROM_URL:https:https://download.meizu.com/Firmware/Flyme/16/9.21.11.18/cn_beta/20211118002219/3784e336/update.zip
+      ROM_URL:
         description: 'ROM_URL'
         required: true
         default: 'https://hugeota.d.miui.com/21.5.31/miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
-      ZIP_NAME:Flyme.zip
+      ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
         default: 'miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
-      OS_TYPE:Flyme
+      OS_TYPE:
         description: 'OS_TYPE'
         required: true
         default: 'miui'
-      SGSI_TYPE:'AB'
+      SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
         default: 'AB'
-      REPACK_NAME:Flyme.zip
+      REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
         default: 'SGSI.zip'
