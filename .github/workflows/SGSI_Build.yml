@@ -3,7 +3,7 @@ name: SGSI_Build
 on:
   workflow_dispatch:
     inputs:
-      ROM_URL:https://download.meizu.com/Firmware/Flyme/16s/8.1.5.3/cn/20211228110054/b817c4a0/update.zip
+      ROM_URL:https:https://download.meizu.com/Firmware/Flyme/16/9.21.11.18/cn_beta/20211118002219/3784e336/update.zip
         description: 'ROM_URL'
         required: true
         default: 'https://hugeota.d.miui.com/21.5.31/miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
